@@ -191,8 +191,8 @@ Each layer is modular and scalable to support future upgrades.
 👩‍💻 Contributors
 | Name                    | Roll Number | Role                                      |
 | ----------------------- | ----------- | ----------------------------------------- |
-| **Namrah Akram**        | BITF21M542  | Project Manager, React Frontend Developer |
-| **Bisma Tanveer Mirza** | BITF21M549  | Backend Developer, AI Chatbot Integration |
+| **Namrah Akram**        | BITF21M542  | Project Manager,Full Stack Developer |
+| **Bisma Tanveer Mirza** | BITF21M549  | Frontend Developer, AI Chatbot Integration |
 | **Minahal Fatima**      | BITF21M515  | Frontend Developer, Architecture Designer |
 | **Laiba Ali**           | BITF21M528  | Backend Developer, QA Engineer            |
 

@@ -73,8 +73,7 @@
 
 ### Steps
 
-git clone https://github.com/your-org/greenheaven.git
-cd greenheaven
+git clone https://github.com/bisma1206/GREENHEAVEN-FYP-main
 npm install
 ----
 

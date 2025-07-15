@@ -1,0 +1,197 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+.dashboard {
+  background-image: url("https://img.freepik.com/premium-photo/dark-green-wall-empty-room-with-plants-floor_41470-5127.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 70vh;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  z-index: 0;
+  /* position: absolute; */
+}
+
+/* Collection page */
+
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4fef6;
+  color: #2f4f4f;
+}
+
+/* Header Styles */
+.header {
+  background-color: #4a904f;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background-color: #c9e9d2;
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.hero-content h1 span {
+  color: #4a904f;
+  font-weight: bold;
+}
+
+.hero-content .shop-btn {
+  padding: 0.5rem 1rem;
+  background-color: #4a904f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero-content .shop-btn:hover {
+  background-color: #256d3f;
+}
+
+.hero-image img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* Categories Section */
+.categories {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.category-btn {
+  margin: 0 1rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #4a904f;
+  background-color: white;
+  color: #4a904f;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.category-btn:hover {
+  background-color: #4a904f;
+  color: white;
+}
+
+/* Product Grid Section */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.product-card {
+  text-align: center;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.product-card .price {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+  color: #4a904f;
+}
+
+.add-cart-btn {
+  padding: 0.5rem 1rem;
+  background-color: #4a904f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-cart-btn:hover {
+  background-color: #256d3f;
+}
+
+/* Footer Section */
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #4a904f;
+  color: white;
+}
+
+
+.spinner {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: radial-gradient(farthest-side, #0a5628 94%, #0000) top/9px 9px no-repeat,
+    conic-gradient(#0000 30%, #62b077);
+  -webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 9px), #000 0);
+  animation: spinner-c7wet2 1s infinite linear;
+}
+
+@keyframes spinner-c7wet2 {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+/* Center the spinner in the screen */
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed; /* Fixed to viewport */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4); /* Optional: Semi-transparent background */
+}

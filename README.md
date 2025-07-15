@@ -1,4 +1,4 @@
-# 🌿 GreenHeaven
+# 🌿 Final Year Project GreenHeaven
 
 *A comprehensive e-commerce platform for plant enthusiasts and gardening novices. Developed as a Final Year Project (FYP) at FCIT, University of the Punjab, Lahore.*
 
@@ -73,10 +73,23 @@
 
 ### Steps
 
-```bash
 git clone https://github.com/your-org/greenheaven.git
 cd greenheaven
 npm install
+----
+
+Start Backend
+
+cd backend
+npm start
+
+---
+
+Start Frontend
+npm start
+
+---
+
 🧑‍💻 Usage
 Register/Login to access personalized features
 
@@ -92,44 +105,7 @@ Read articles in the Plant Care Blog
 
 Monitor spending via the Expense Tracker
 
-🏗️ System Architecture
-Three-tier Architecture:
-
-Presentation Layer – React UI
-
-Application Layer – Node.js / Express business logic
-
-Data Layer – MongoDB for persistent storage
-
-Each layer is modular and scalable to support future upgrades.
-
-📦 Modules
-🔐 Authentication – JWT-secured login/signup
-
-🛒 Shopping – Cart, wishlist, and checkout
-
-🧠 Chatbot – AI-powered plant assistant
-
-📖 Blog – Admin-created plant care articles
-
-📊 Admin Panel – Product, order, blog management
-
-💰 Expense Tracker – Visual summary of purchases
-
-📊 Admin Dashboard
-✅ Add / update / delete products
-
-📦 Monitor inventory & customer orders
-
-📝 Post and manage blog articles
-
-🗣️ View customer feedback
-
-🧠 AI Integration
-🪴 Plant Identifier (Future) – Classify plants from images
-
-💬 Chatbot – Responds based on FAQs and care guides
-
+---
 🗃️ Database Schema Overview
 Key MongoDB collections:
 
@@ -152,8 +128,10 @@ Feedback
 ChatLogs
 
 Schemas are optimized for NoSQL flexibility and scalable querying.
+---
 
 📸 Screenshots
+---
 Add screenshots of the following components:
 
 Login / Signup pages
@@ -168,12 +146,57 @@ Chatbot interface
 
 Blog section
 
+---
+
+📦 Modules
+🔐 Authentication – JWT-secured login/signup
+
+🛒 Shopping – Cart, wishlist, and checkout
+
+🧠 Chatbot – AI-powered plant assistant
+
+📖 Blog – Admin-created plant care articles
+
+📊 Admin Panel – Product, order, blog management
+
+💰 Expense Tracker – Visual summary of purchases
+
+---
+
+📊 Admin Dashboard
+✅ Add / update / delete products
+
+📦 Monitor inventory & customer orders
+
+📝 Post and manage blog articles
+
+🗣️ View customer feedback
+
+
+
+---
+
+🏗️ System Architecture
+Three-tier Architecture:
+
+Presentation Layer – React UI
+
+Application Layer – Node.js / Express business logic
+
+Data Layer – MongoDB for persistent storage
+
+Each layer is modular and scalable to support future upgrades.
+
+---
+
 👩‍💻 Contributors
-Name	Roll Number	Role
-Namrah Akram	BITF21M542	Project Manager, React Frontend Developer
-Bisma Tanveer Mirza	BITF21M549	Backend Developer, AI Chatbot Integration
-Minahal Fatima	BITF21M515	Frontend Developer, Architecture Designer
-Laiba Ali	BITF21M528	Backend Developer, QA Engineer
+| Name                    | Roll Number | Role                                      |
+| ----------------------- | ----------- | ----------------------------------------- |
+| **Namrah Akram**        | BITF21M542  | Project Manager, React Frontend Developer |
+| **Bisma Tanveer Mirza** | BITF21M549  | Backend Developer, AI Chatbot Integration |
+| **Minahal Fatima**      | BITF21M515  | Frontend Developer, Architecture Designer |
+| **Laiba Ali**           | BITF21M528  | Backend Developer, QA Engineer            |
+
 
 Project Advisor: Dr. Amina Mustansir
 Institution: Faculty of Computing & Information Technology, University of the Punjab, Lahore
